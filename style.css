@@ -5,47 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Navbar Section  */
-nav {
-    padding: 10px 108px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    position: sticky;
-    top: 0;
-}
-
-.nav-items {
-    display: flex;
-    align-items: flex-end;
-    gap: 10px;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-ul li a {
-    line-height: 25px;
-    letter-spacing: 0.16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #4F4F4F;
-}
-
-
-.login-btn {
-    display: flex;
-    padding: 15px 36px;
-}
-
-/* Baner Section  */
-.banner>p {
+/* Baner Section  */ 
+ .banner>p {
     font-family: 'ABeeZee', sans-serif;
     font-size: 16px;
     color: #fff;
@@ -260,17 +221,7 @@ ul li a {
     flex-direction: column;
     justify-content: space-evenly;
 }
-.courses-card{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
 .courses-card>img{
-    height: 90%;
-    margin-right: 5%;
-    width: 25%;
     cursor: pointer;
 }
 .courses-text>p {
@@ -470,4 +421,14 @@ ul li a {
     font-weight: 602;
     line-height: 5px;
 
+}
+
+@media screen and (max-width: 480px) {
+     .h-left{
+        display: none;
+     }
+     .courses-card{
+           display: flex;
+           flex-direction: column;
+     }
 }
