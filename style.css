@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Section  */
+nav {
+    padding: 10px 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.nav-items {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+ul li a {
+    line-height: 25px;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+
+
+.login-btn {
+    display: flex;
+    padding: 15px 36px;
+}
+
+/* Baner Section  */
+.banner>p {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    line-height: 20px;
+    letter-spacing: 0.28px;
+    display: flex;
+    padding: 9px;
+    justify-content: center;
+    background-color: #2F80ED;
+}
+
+/* Header Section  */
+#Header {
+    display: flex;
+    padding: 0px 50px;
+    width: 100vw;
+    height: 590px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* header left  */
+.h-left {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin-top: 20px; */
+    /* margin-left: 100px; */
+}
+
+.h-contents>h1 {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    line-height: 130%;
+    /* 65px */
+    letter-spacing: -0.75px;
+}
+
+.h-contents span {
+    color: #2F80ED;
+}
+
+.h-contents p {
+    color: #595959;
+    font-size: 18px;
+    line-height: 130%;
+    /* 23.4px */
+    letter-spacing: 0.36px;
+}
+
+.h-icons {
+    display: flex;
+    width: 91%;
+    height: 77px;
+    padding: 15px 20px;
+    gap: 34px;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.icon-highlights {
+    display: flex;
+    width: 180px;
+    height: 47px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10.214px;
+    flex-shrink: 0;
+}
+
+.icon-conatiner-1 {
+    width: 36px;
+    height: 36px;
+    background-color: #FFE1DF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-conatiner-2 {
+    width: 36px;
+    height: 36px;
+    background-color: #DFFFE4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-conatiner-3 {
+    width: 36px;
+    height: 36px;
+    background-color: #DFFFE4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+    line-height: 10px;
+}
+
+.h-box {
+    width: 35%;
+    border-radius: 23px;
+    background: #FFF;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.h-box p {
+    color: #525252;
+    font-size: 14px;
+    margin: auto;
+    line-height: 150%;
+    /* 21px */
+}
+
+/* Header right  */
+.h-right {
+    display: flex;
+    flex: 1;
+    padding: 28px 24px 32px 24px;
+    margin-top: 30px;
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+}
+
+.h-top>h2 {
+    color: #2B2F34;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+    /* 48px */
+    letter-spacing: -0.48px;
+}
+
+.h-top>p {
+    color: #818D9D;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    /* 24px */
+}
+
+.h-input {
+    width: 90%;
+}
+
+.h-input>input {
+    border: none;
+    padding: 10px;
+    background-color: transparent !important;
+}
+
+.h-right>button {
+    display: flex;
+    width: 95%;
+    padding: 14px 6px 14px 16px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 2px;
+    border-radius: 8px;
+    background: linear-gradient(277deg, #992FED 0%, #2F80ED 100%);
+    color: #fff;
+}
+
+.hr-bottom>p {
+    color: #818D9D;
+    text-align: center;
+    font-size: 14px;
+    line-height: 150%;
+    /* 21px */
+}
+
+.hr-bottom span {
+    color: #2F80ED;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+/* our courses section  */
+#our-courses{
+    margin-top: 5%;
+    background: #ECF8FF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.courses-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.courses-card>img{
+    height: 90%;
+    margin-right: 5%;
+    width: 25%;
+    cursor: pointer;
+}
+.courses-text>p {
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+
+    background: linear-gradient(277deg, #992FED 0%, #2F80ED 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.courses-text>h2 {
+    color: #2F80ED;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40%;
+    /* 54px */
+    letter-spacing: -0.54px;
+}
+
+/* hiring partner section  */
+#hirimg-partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.hireing-p1 {
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}
+
+.hireing-text>h3 {
+    color: #2B2F34;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    line-height: 150%;
+    letter-spacing: -0.63px;
+}
+
+.hirieing-spn {
+    color: var(--PRIMARY-SKY-BLUE, #2F80ED);
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.63px;
+}
+
+.hireing-p2 {
+    color: #595959;
+    text-align: center;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+}
+
+.hiring-company {
+    display: grid;
+    gap: 10%;
+    grid-template-columns: repeat(6, 70px);
+    grid-template-rows: repeat(3, 70px);
+    margin: 4%;
+}
+
+.hireing-btn {
+    display: flex;
+    width: 276px;
+    padding: 14px 6px 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background: #2F80ED;
+    margin: auto
+}
+
+/* testimonials section  */
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.testimonials-text>h2 {
+    color: #2B2F34;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    line-height: 150%;
+    /* 63px */
+    letter-spacing: -0.63px;
+}
+
+.testimonials-text>p {
+    color: #595959;
+    text-align: center;
+    font-size: 18px;
+    line-height: 130%;
+    /* 23.4px */
+    letter-spacing: 0.36px;
+}
+
+.testimonials-cards {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas:
+        "v v i i g g"
+        "v v i i g g"
+        "r r i i g g"
+        "r r s s t t"
+        "r r s s t t";
+    gap: 20px;
+    padding: 20px;
+}
+
+.my-card-1 {
+    grid-area: v;
+}
+
+.my-card-2 {
+    grid-area: r;
+}
+
+.my-card-3 {
+    grid-area: i;
+}
+
+.my-card-4 {
+    grid-area: s;
+}
+
+.my-card-5 {
+    grid-area: g;
+}
+
+.my-card-6 {
+    grid-area: t;
+}
+
+.my-card {
+    display: flex;
+    width: 30vw;
+    height: 50vh;
+    /* border-radius: 10px; */
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header-left>img {
+    width: 64px;
+    height: 64px;
+}
+
+.card-header-title>h3 {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 150%;
+}
+
+.card-header-title>p {
+    color: #676767;
+    font-size: 16px;
+    font-weight: 602;
+    line-height: 5px;
+
+}
